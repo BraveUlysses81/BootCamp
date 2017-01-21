@@ -1,0 +1,10 @@
+body {
+    background-color: aliceblue;
+}
+
+#signIn {
+    text-align: center;
+    font-size: 54px;
+    width: 900px;
+    color: white;
+}

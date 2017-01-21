@@ -1,0 +1,29 @@
+#package {
+    width: 640px;
+    height: 426px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background: blue;
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+#back {
+    float: left;
+}
+
+#forward {
+    float: right;
+}

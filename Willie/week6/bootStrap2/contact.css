@@ -1,0 +1,10 @@
+main{
+    background-image: url(background3.jpg);
+}
+
+.blocks{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+}

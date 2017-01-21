@@ -1,0 +1,15 @@
+<% include partials/header.ejs %>
+
+<div class="col-xs-7 col-xs-offset-2">
+    <h2>Name the movie!</h2>
+    <form id="movieChoice" action="/searchresults" method="get">
+        <div class="form-group">
+            <label for="movie">Enter your location:</label>
+            <input id="movie" name="movie" type="text" class="form-control" placeholder="Enter your location">
+        </div> <!--class="form-group"-->
+        <button type="submit" class="btn btn-primary" id="submitter">Submit</button>
+    </form>
+</div> <!--class="col-xs-7 col-xs-offset-2"-->
+
+
+<% include partials/footer.ejs %>

@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+}
+
+main{
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#brand{
+    width: 120px;
+    height: auto;
+}
+
+.navbar{
+    border: 0;
+    margin-bottom: 0;
+}
+
+.navbar-default{
+    border-radius: 0%;
+}
+
+.navbar-right{
+    padding-right: 25px;
+}
+
+.form-group{
+    margin-bottom: 0;
+}
+
+footer{
+    color: white;
+}
+
+.navbar-inverse{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footLink{
+    color: white;
+}

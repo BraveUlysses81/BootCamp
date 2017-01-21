@@ -1,0 +1,27 @@
+<% include partials/header.ejs %>
+
+<div class="jumbotron">
+    <h1><%= banner %></h1>
+    <p><%= message %></p>
+</div>
+
+<div class="col-xs-10 col-xs-offset-1">
+<form>
+    <div class="from-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" placeholder=" Enter email" id="email">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" placeholder=" Password" id="name">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+
+<div id="content">
+
+</div>
+
+<% include partials/footer.ejs %>

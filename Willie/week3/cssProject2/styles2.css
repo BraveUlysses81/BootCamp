@@ -1,0 +1,65 @@
+body,
+nav,
+ul,
+ol,
+li,
+a {
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Oswald, sans-serif;
+    background: #ddd;
+    color: white;
+}
+
+nav {
+    background: #999;
+    height: 75px;
+    line-height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.topMenu {
+    display: flex;
+}
+
+.topMenu li {
+    width: calc(100%/6);
+    white-space: nowrap;
+    text-align: center;
+    font-size: 25px;
+}
+
+#logo {
+    font-size: 42px;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+
+.subMenu {
+    position: absolute;
+    left: -10000em;
+}
+
+.topMenu li:hover {
+    background: #bbb;
+}
+
+
+/*.topMenu li:hover .subMenu {
+    position: inherit;
+}*/
+
+.topMenu li:target .subMenu {
+    position: inherit;
+}
+
+.subMenu li:hover {
+    background: #555;
+}

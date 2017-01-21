@@ -1,0 +1,19 @@
+1. The command to clear the screen is: clear or Ctrl + L
+
+2. The shortcut for a new tab is "Ctrl + Shift + t"
+
+3. To scroll through previous commands, we'd use the "up arrow"
+
+4. To move the files I would type "mv *.txt emptyFolder/"
+
+5. To check file differences, I would input "diff myfile1.txt myfile2.txt"
+
+6. In order to delete a folder and everything inside of it, I would use the command "rm -r thisFolder/"
+
+7. The command to list all files in a give directory is "ls -la" If I wanted to list all the CSS files, I would type "find . -name "*.css""
+
+8. To find a file by name in a given directory I would write "find . -name "fileName"". To search over the entire volume I would type "find / -name "fileName"
+
+9. In order to search for a in folder b I would type "grep "a" b/"
+
+10. To create this file I would type: "touch YourName.txt" To check it's permissions, I would input "ls -lh" in the folder where YourName.txt is located. To change it's permissions I would type: "chmod 555" or "a+rx" to allow all to read and execute the file. To allow me alone to read it I would input "g-r, o-r".

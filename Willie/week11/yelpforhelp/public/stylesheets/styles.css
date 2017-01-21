@@ -1,0 +1,31 @@
+body{
+  font-family: Oswald, sans-serif;
+  background-color: white;
+}
+
+.top{
+  border: 0px;
+  min-height: 0px;
+  position: relative;
+}
+
+.nav-tabs{
+  border: 0px;
+}
+
+.navi{
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.result{
+  line-height: 1.5;
+  margin-top: 10px;
+  background: #d9edf7;
+  color: #637ab7;
+}
+
+.chunk{
+  padding-right: 0px;
+}

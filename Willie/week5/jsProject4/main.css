@@ -1,0 +1,9 @@
+body {
+    background-image: url("background1.jpg");
+}
+
+#message {
+    position: absolute;
+    font-size: 54px;
+    width: 900px;
+}

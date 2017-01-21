@@ -1,0 +1,52 @@
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #ECEFF1;
+    font-family: Oswald, serif;
+}
+
+ul.topMenu {
+    display: flex;
+    justify-content: space-between;
+    background: #01579B;
+}
+
+ul.topMenu li a:hover {
+    background: #9AD1E3;
+}
+
+ul.subMenu li a:hover {
+    background: #ACE39A;
+    color: white;
+}
+
+ul.subMenu {
+    display: block;
+    position: absolute;
+    left: -120000em;
+    background: #ECEFF1;
+    color: black;
+}
+
+.topMenu li:hover ul {
+    left: inherit;
+}
+
+li a {
+    display: block;
+    line-height: 70px;
+    width: 300px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+ul.subMenu li a {
+    color: black;
+}

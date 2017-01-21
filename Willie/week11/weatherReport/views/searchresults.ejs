@@ -1,0 +1,12 @@
+<% include partials/header %>
+
+<div class="col-xs-10 col-xs-offset-2 chunk">
+<h1>Here is the forecast for: <%= city %></h1>
+<h3 class = "result" id="blue">Current Temperature: <%= temp %></h3>
+<h3 class = "result" id="green">Current Outlook: <%= out %></h3>
+<h3 class = "result" id="red">Relative Humidity: <%= humid %></h3>
+<h3 class = "result" id="reverse"><%= comment %></h3>
+<h5><a href="/">Check a different city</a></h5>
+</div><!--class="col-xs-10 col-xs-offset-2"-->
+
+<% include partials/footer %>

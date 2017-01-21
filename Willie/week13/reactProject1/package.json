@@ -1,0 +1,14 @@
+{
+  "name": "reactproject1",
+  "version": "1.0.0",
+  "description": "an into project to react with just a header and some basic props",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "willie witten",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

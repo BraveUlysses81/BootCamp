@@ -1,0 +1,58 @@
+body{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.button{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	width: 160px;
+	height: 60px;
+	border: none;
+	border-radius: .6em;
+}
+
+.linkButton{
+	text-decoration: none;
+	color: white;
+	display: block;
+	margin: 4px;
+	padding: 15px 50px;
+	border-radius: .6em;
+}
+
+#blue{
+	background: blue;
+}
+
+#red{
+	background: red;
+}
+
+#green{
+	background: green;
+}
+
+#yellow{
+	background: yellow;
+}
+
+#blueLink{
+	float: left;
+	background: #0544A4;
+}
+
+#redLink{
+	float: left;
+	background: #F7412D;
+}
+
+#greenLink{
+	float: left;
+	background: #47B04B;
+}
+
+#yellowLink{
+	float: left;
+	background: #FFED18;
+}

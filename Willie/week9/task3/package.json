@@ -1,0 +1,15 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "a three paged site using views and partials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "willie witten",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  }
+}

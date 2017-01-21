@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" lang="en">
+    <title>The Breakfast Restaurant</title>
+</head>
+
+<body>
+    <main role="main">
+        <section>
+            <h1>Contact Us</h1>
+            <p>Do you need to place an online order? Fill out this form and we'll get your order ready! (Note: please do not use thsi form to complain about the quality of our food.)</p>
+        </section>
+        <form action="OrderServlet" method="post">
+            <label>First Name:</label>
+            <br>
+            <br>
+            <input type="text" name="first" placeholder="Jim">
+            <br>
+            <br>
+            <label>Last Name:</label>
+            <br>
+            <br>
+            <input type="text" name="last" placeholder="Davis">
+            <br>
+            <br>
+            <label>Email:</label>
+            <br>
+            <br>
+            <input type="email" name="email" placeholder="blah@email.com">
+            <br>
+            <br>
+            <label>Phone number:</label>
+            <br>
+            <br>
+            <input type="email" name="email" placeholder="777-7777">
+            <br>
+            <br>
+            <textarea rows="20" cols="60" name="order">What would you like to order?</textarea>
+            <p>Would you like a side of hash browns?
+                <br>
+                <br>
+                <input type="radio" name="hashBrowns" value="Yes" checked>Yes
+                <br>
+                <input type="radio" name="hashBrowns" value="No">No
+                <br>
+            </p>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+
+</html>
