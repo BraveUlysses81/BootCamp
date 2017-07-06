@@ -1,0 +1,25 @@
+{
+  "name": "finalProject",
+  "version": "1.0.0",
+  "description": "a movie application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "movies",
+    "search",
+    "final"
+  ],
+  "author": "willie witten",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "jquery": "^3.1.1",
+    "request": "^2.76.0"
+  }
+}

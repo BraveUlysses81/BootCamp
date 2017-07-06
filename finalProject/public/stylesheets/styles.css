@@ -1,0 +1,53 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Oswald, sans-serif;
+    height: 100%;
+}
+
+.main{
+    color: white;
+    background-image: url('../3vn4vcd.jpg');
+    height: inherit;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.piece{
+    text-align: center;
+}
+
+.top{
+    border: 0px;
+    min-height: 0px;
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: 10px;
+}
+
+.nav-tabs{
+    border: 0px;
+}
+
+.navi{
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.result{
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.chunk{
+    padding-right: 0px;
+}

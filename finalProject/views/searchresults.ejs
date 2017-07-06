@@ -1,0 +1,16 @@
+<% include partials/header.ejs %>
+
+<div class="col-xs-5 col-xs-offset-1 chunk">
+    <h1>Now Playing At A Theatre Near You:</h1>
+
+    <% for (i = 0; i < movies.results.length; i ++){%>
+    <h2><%= movies.results[i].original_title %></h2>
+    <h5><%= movies.results[i].overview %></h5>
+    <h4>Rating <%= movies.results[i].vote_average %> out of 10 Stars</h4>
+    <h4><img src="https://image.tmdb.org/t/p/w300<%= movies.results[i].poster_path %>"></h4>
+    <%}%>
+
+    <h5><a href="/">Return to Home</a></h5>
+</div><!--class="col-xs-11 col-xs-offset-1"-->
+
+<% include partials/footer.ejs %>
